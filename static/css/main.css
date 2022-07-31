@@ -1,0 +1,120 @@
+body{
+  overflow-x: hidden;
+}
+
+.text-light-blue{
+  color: #e4ebf1 !important;
+}
+
+.text-dark-blue{
+  color: #092d50 !important;
+}
+
+
+.bg-dark-blue{
+  background-color: #092d50 !important;
+}
+.card-icon{
+  top: -5% !important;
+  left: 15%;
+}
+
+.bg-gradient{
+  background: linear-gradient(180deg,#FD6850,#F2319A) !important;
+}
+
+.text-orange{
+  color: #e71f8d;
+  color: #E58EAE;
+}
+
+#float1{
+  right: 25% !important;
+  top: 20% !important;
+  cursor: default;
+  transition: all 400ms ease-in;
+}
+
+#float1:hover{
+  top: 17% !important;
+}
+
+#float2{
+  bottom: 15% !important;
+  cursor: default;
+  transition: all 400ms ease-in;
+}
+
+#float2:hover{
+  left: 2% !important;
+  bottom: 17% !important;
+}
+
+
+.bg-light-transistion{
+  background: linear-gradient(180deg, white, #e2e4e5);
+}
+
+.bg-dim-light{
+  background-color: #e2e4e5 !important;
+}
+
+/* boostrap breakpoint */
+/* $grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: ,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+); */
+
+
+@media (min-width: 768px) {
+  #heading-text{
+    margin: auto;
+  }
+
+  #nav-bar-btn{
+    margin-right: 13% !important;
+  }
+
+  .intro-card{
+    height: 90% !important;
+  }
+
+  .image-stroke{
+    clip-path: polygon(100% 0, 100% 53%, 65% 100%, 21% 100%);
+    width: 80%;
+    height: 90%;
+    z-index: -10;
+    top: 0%;
+    background: linear-gradient(150deg, #6C49ED, #e421b3) !important;
+  }
+}
+
+@media (max-width: 576px) {
+  #heading-text{
+    margin-left: 10% !important;
+    margin-bottom: 10%;
+  }
+
+  #heading-img{
+    display: flex;
+    justify-content: center !important;
+  }
+
+  #heading-img div img{
+    border-radius: 50% !important;
+    width: 100%;
+  }
+
+  #float1{
+    right: 10% !important;
+    top: 0% !important
+  }
+  #float2{
+    left: 10% !important;
+  }
+
+}
