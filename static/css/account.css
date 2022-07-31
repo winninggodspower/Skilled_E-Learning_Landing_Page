@@ -1,0 +1,61 @@
+@import url(main.css);
+
+h1{
+    font-size: 5rem;
+    text-align: center;
+}
+
+a.text-light-blue{
+    color: #0966b8 !important;
+  }
+
+#table-hover-bg:hover{
+    background: #e5e6e7 !important;
+}
+
+.text-yellow{
+    color: rgb(241, 149, 28);
+}
+
+#user-profile{
+    /* clip-path: url(#blob); */
+    /* -webkit-clip-path: url(#blob); */
+    /* width: 100%; */
+}
+
+/* boostrap breakpoint */
+/* $grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: ,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+); */
+
+@media (max-width: 760px) {
+    h1{
+        font-size: 3rem;
+        width: 100% !important;
+        text-align: center !important;
+    }
+    .rankings{
+        width: 100% !important;
+        justify-content: space-around !important;
+    }
+
+    .img-container{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 576px){
+    .user-links{
+        margin: auto;
+    }
+    span.px-sm-2{
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+}

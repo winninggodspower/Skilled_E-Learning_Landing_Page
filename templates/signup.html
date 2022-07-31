@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7dc614ef69.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="../static/bootstrap-5.1.3\dist\css\bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/account.css">
+    <title>Signup</title>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-white">
+        <div class="container-fluid">
+            <a class="navbar-brand text-dark-blue fw-bold fs-4 ms-sm-5 ms-md-5 d-flex align-items-center" href="#">
+                <img src="\static\bootstrap-5.1.3\nuget\bootstrap.png" alt="" width="30" height="24"
+                    class="d-inline-block align-text-top me-2">
+                Skilled
+            </a>
+            <span id="nav-bar-btn" class="fw-bold btn text-light-blue bg-dark-blue rounded-pill me-md-5 me-sm-0">
+                Logout
+            </span>
+        </div>
+    </nav>
+    <main class="container">
+        
+        <div class="w-100 text-center mt-5">
+            <form class="form-signin mx-auto mt-5" method="post" action="/signup">
+                <img class="mb-4 shadow rounded rounded-3" src="../static/assets/icons/skilled-logo.png" alt="" width="72" height="72">
+                <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+                
+                <h1 class="text-dark-blue fs-1">Signup To Skilled</h1>
+            <div class="mb-3">
+                <label for="inputEmail" class="text-start w-100 form-label">Email</label>
+                <input type="email" name="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>    
+            </div>
+
+            <div class="mb-3">
+                <label for="inputName" class="text-start w-100 form-label">name</label>
+                <input type="text" id="inputName" name="name" class="form-control" placeholder="name" required autofocus>    
+            </div>
+
+            <div class="mb-3">
+                <label for="inputPassword" class="text-start w-100 form-label">Password</label>
+                <input type="password" id="inputPassword" name="password1" class="form-control" placeholder="Password" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="inputComfirmPassword" class="text-start w-100 form-label">Comfirm Password</label>
+                <input type="password" id="inputComfirmPassword" name="password2" class="form-control" placeholder="Comfirm Password" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="PhoneNumber" class="text-start w-100 form-label">Phone Number</label>
+                <input type="number" name="phonenumber"  minlength="120" maxlength="11" id="PhoneNumber" class="form-control" placeholder="+234 80......45" required>
+            </div>
+
+            <div class="checkbox mb-3 text-start">
+                Aleady Have An Account? <a href="./signup.html"> SignIn</a>
+            </div>
+            <button class="btn btn-lg bg-gradient btn-block w-100 mb-5" type="submit">Create Account</button>
+        </form>
+    </div>
+    </main>
+    <style>
+        /* main browser support */
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button
+        {
+            -webkit-appearance: none;
+        }
+
+        /* FireFox */
+        input[type=number]{
+            -webkit-appearance: textfield;
+        }
+
+        input:focus{
+            box-shadow: 0 0 0 0.25rem #E58EAE !important;
+        }
+
+        @media (min-width:990px) {
+            form.form-signin{
+                margin-left: 10%;
+                width: 50% !important;
+            }
+        }
+
+    </style>
+</body>
+</html>
