@@ -5,6 +5,8 @@ This is a landing page for a pseudo e-learning platform that teaches Animation, 
 ## Technology Used
 - Html and Css
 - Bootstrap
+- Javascript
+- jquery
 
 ## Screenshot
 ![screenshot of the Landign page](s41jo4pkbnhmvywkxctf.jpg)
